@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2136372961">
+    <data-source source="LOCAL" name="Rails healthfundit-master: development" uuid="c15b1df1-68c5-4c31-b8bb-dbc35c1f385d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:hfi_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails healthfundit-master: test" uuid="a3c9b632-6b15-4fcb-8e3c-a494f62e1523">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:hfi_test</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

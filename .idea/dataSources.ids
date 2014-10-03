@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails healthfundit-master: development" uuid="c15b1df1-68c5-4c31-b8bb-dbc35c1f385d">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails healthfundit-master: test" uuid="a3c9b632-6b15-4fcb-8e3c-a494f62e1523">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
