@@ -1,10 +1,16 @@
 Rails.application.routes.draw do
+  devise_for :users, :controllers => {:omniauth_callbacks => "omniauth_callbacks" }
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
   post 'post/vote/:id' => 'posts#vote', as: :post_vote
   get 'post/detail/:id' => 'posts#detail', as: :post_detail
   root 'pages#home'
+  get 'login', to: 'login#index'
+  post 'logout', to: 'login#logout', as: :logout_path
+  get '/users/:id/finish_signup' => 'users#show_finish_signup', :as => :show_finish_signup
+  patch '/users/:id/finish_signup' => 'users#finish_signup', :as => :finish_signup
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,6 +1,11 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "colorbox-rails";
+/*Login Page*/
+@import "font-awesome";
+@import "login";
+
+
 
 .container.main {
   margin-top: 60px;
